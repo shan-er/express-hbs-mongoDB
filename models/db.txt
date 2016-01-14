@@ -1,0 +1,14 @@
+> use example
+
+创建数据表
+> db.createCollection("users")
+
+插入数据
+> db.users.save({id:'1', name:'路飞', age:17, dream:'成为海贼王'} );
+> db.users.save({id:'2', name:'索隆', age:19, dream:'成为世界第一的大剑豪'} );
+
+与insert区别，重复数据会自动更新
+
+
+查询数据
+> db.users.find();

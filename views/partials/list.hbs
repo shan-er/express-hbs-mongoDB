@@ -1,0 +1,21 @@
+<table class="table table-bordered">
+        <caption>草帽海贼团</caption>
+        <thread>
+            <tr>
+                <th>姓名</th>
+                <th>年龄</th>
+                <th>梦想</th>
+                <th>操作</th>
+            </tr>
+        </thread>
+        <tbody>
+            {{#each list}}
+                <tr>
+                    <td>{{name}}</td>
+                    <td>{{age}}</td>
+                    <td>{{dream}}</td>
+                    <td><a class="J-delete-opt" value={{_id}}><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>  删除</a></td>
+                </tr>
+            {{/each}}
+        </tbody>
+    </table>

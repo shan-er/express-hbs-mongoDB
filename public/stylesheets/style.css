@@ -1,0 +1,59 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #337ab7;
+}
+
+a:focus, a:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.hide {
+	display: none;
+}
+
+.message {
+	text-align: center;
+}
+
+.add-btn {
+	float: right;
+}
+
+.add-modal {
+	position: fixed !important;
+	height: auto;
+	left: 50%;
+	width: 400px;
+	top: 150px;
+	margin-left: -200px;
+	background-color: #fff;
+	z-index: 999;
+	border: 1px solid #eee;
+	padding: 0 20px;
+}
+
+.add-modal input {
+	margin: 10px 50px;
+	width: 280px !important;
+}
+
+.modal-btns button{
+	margin: 30px 30px 30px 0;
+}
+
+.cover-main {
+	position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 990;
+    background: #000;
+    opacity: 0.5;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+    width: 100%;
+    height: 100%;
+}
